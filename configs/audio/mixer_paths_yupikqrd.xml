@@ -2565,7 +2565,7 @@
     </path>
     <path name="voice-tty-full-headset-mic">
         <path name="amic2"/>
-        <ctl name="ADC2 Volume" value="0"/>
+        <ctl name="ADC2 Volume" value="6"/>
         <ctl name="TX_DEC5 Volume" value="84"/>
     </path>
     <path name="unprocessed-handset-mic">
