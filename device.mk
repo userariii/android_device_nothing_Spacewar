@@ -47,7 +47,6 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     audioadsprpcd \
-    liba2dpoffload \
     libbatterylistener \
     libcomprcapture \
     libexthwplugin \
