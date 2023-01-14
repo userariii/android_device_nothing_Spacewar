@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 Project-Elixir
+# Copyright (C) 2022 evolution-x
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -11,29 +11,28 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from the device configuration.
 $(call inherit-product, device/nothing/Spacewar/device.mk)
 
-# Inherit from Project-Elixir configuration.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit from evolution-x configuration.
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Bootanimation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Project-Elixir stuff
+# evolution-x stuff
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_SUPPORTS_QUICK_TAP := true
 FACE_UNLOCK_SUPPORTED := true
-ELIXIR_MAINTAINER := HarshhaaReddyPamarthi
-ELIXIR_BUILD_TYPE := OFFICIAL
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 EXTRA_UDFPS_ANIMATIONS := true
+EVO_BUILD_TYPE := Released_By_CRUECY
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Nothing
 PRODUCT_DEVICE := Spacewar
 PRODUCT_MANUFACTURER := Nothing
 PRODUCT_MODEL := A063
-PRODUCT_NAME := aosp_Spacewar
+PRODUCT_NAME := evolution_Spacewar
 PRODUCT_SYSTEM_DEVICE := Spacewar
 PRODUCT_SYSTEM_NAME := Spacewar
 
